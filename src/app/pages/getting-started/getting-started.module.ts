@@ -1,15 +1,12 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { PdfViewerModule } from "ng2-pdf-viewer";
+import { CommonModule } from "@angular/common";
+import { NgModule } from "@angular/core";
 
-import { GettingStartedRoutingModule } from './getting-started-routing.module';
-import { GettingStartedComponent } from './getting-started.component';
-
+import { GettingStartedRoutingModule } from "./getting-started-routing.module";
+import { GettingStartedComponent } from "./getting-started.component";
 
 @NgModule({
   declarations: [GettingStartedComponent],
-  imports: [
-    CommonModule,
-    GettingStartedRoutingModule
-  ]
+  imports: [CommonModule, GettingStartedRoutingModule, PdfViewerModule],
 })
-export class GettingStartedModule { }
+export class GettingStartedModule {}
