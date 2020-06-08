@@ -111,6 +111,7 @@ import { ShellComponent } from "./shell/shell.component";
   ],
   providers: [
     /**
+     * wow
      * OPEN DIST WITHOUT SERVER
      * To make it possilbe for open dist/index.html locally without server
      * uncomment below
