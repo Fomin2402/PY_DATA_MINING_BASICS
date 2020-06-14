@@ -15,6 +15,11 @@ const routes: Routes = [
       import("./pages/lab-01/lab-01.module").then((m: any) => m.Lab01Module),
   },
   {
+    path: "lab-02",
+    loadChildren: () =>
+      import("./pages/lab-02/lab-02.module").then((m: any) => m.Lab02Module),
+  },
+  {
     path: "**",
     redirectTo: "getting-started",
   },
