@@ -115,8 +115,8 @@ import { APP_BASE_HREF,LocationStrategy,HashLocationStrategy } from '@angular/co
     //  OPEN DIST WITHOUT SERVER
     //  To make it possilbe for open dist/index.html locally without server
     //  uncomment below
-     { provide: APP_BASE_HREF, useValue: '/' },
-     { provide: LocationStrategy, useClass: HashLocationStrategy },
+    //  { provide: APP_BASE_HREF, useValue: '/' },
+    //  { provide: LocationStrategy, useClass: HashLocationStrategy },
   ],
   bootstrap: [AppComponent],
 })
