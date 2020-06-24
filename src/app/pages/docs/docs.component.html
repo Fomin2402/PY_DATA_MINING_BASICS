@@ -1,7 +1,9 @@
 <pdf-viewer
-  src="assets/docs/lab_02.pdf"
+  *ngIf="src | async"
+  [src]="src | async"
   [render-text]="true"
   [autoresize]="true"
   [fit-to-page]="true"
+  (error)="onError()"
   style="display: block;"
 ></pdf-viewer>

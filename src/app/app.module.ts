@@ -100,6 +100,7 @@ const MATERIAL_MODULES: any[] = [
 
 import { AppRoutingModule } from "./app-routing.module";
 import { ShellComponent } from "./shell/shell.component";
+import { APP_BASE_HREF,LocationStrategy,HashLocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [AppComponent, ShellComponent],
@@ -110,14 +111,12 @@ import { ShellComponent } from "./shell/shell.component";
     ...MATERIAL_MODULES,
   ],
   providers: [
-    /**
-     * wow
-     * OPEN DIST WITHOUT SERVER
-     * To make it possilbe for open dist/index.html locally without server
-     * uncomment below
-     * { provide: APP_BASE_HREF, useValue: '/' },
-     * { provide: LocationStrategy, useClass: HashLocationStrategy },
-     */
+    
+    //  OPEN DIST WITHOUT SERVER
+    //  To make it possilbe for open dist/index.html locally without server
+    //  uncomment below
+     { provide: APP_BASE_HREF, useValue: '/' },
+     { provide: LocationStrategy, useClass: HashLocationStrategy },
   ],
   bootstrap: [AppComponent],
 })

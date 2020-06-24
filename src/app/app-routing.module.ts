@@ -1,27 +1,19 @@
 import { RouterModule, Routes } from "@angular/router";
 import { NgModule } from "@angular/core";
 
+import { SIDEBAR_LINKS } from './shell/sidebar-links';
+
 const routes: Routes = [
   {
-    path: "getting-started",
+    path: "docs/:name",
     loadChildren: () =>
-      import("./pages/getting-started/getting-started.module").then(
-        (m: any) => m.GettingStartedModule
+      import("./pages/docs/docs.module").then(
+        (m: any) => m.DocsModule
       ),
   },
   {
-    path: "lab-01",
-    loadChildren: () =>
-      import("./pages/lab-01/lab-01.module").then((m: any) => m.Lab01Module),
-  },
-  {
-    path: "lab-02",
-    loadChildren: () =>
-      import("./pages/lab-02/lab-02.module").then((m: any) => m.Lab02Module),
-  },
-  {
     path: "**",
-    redirectTo: "getting-started",
+    redirectTo: `${SIDEBAR_LINKS[0].value}`,
   },
 ];
 

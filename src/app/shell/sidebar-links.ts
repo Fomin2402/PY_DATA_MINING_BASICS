@@ -6,14 +6,18 @@ export interface ILink {
 export const SIDEBAR_LINKS: ILink[] = [
   {
     name: "getting started",
-    value: "getting-started",
+    value: "docs/getting-started.pdf",
   },
   {
     name: "Lab 01",
-    value: "lab-01",
+    value: "docs/lab-01.pdf",
   },
   {
     name: "Lab 02",
-    value: "lab-02",
+    value: "docs/lab-02.pdf",
+  },
+  {
+    name: "Lab 03",
+    value: "docs/lab-03.pdf",
   },
 ];
