@@ -20,4 +20,8 @@ export const SIDEBAR_LINKS: ILink[] = [
     name: "Lab 03",
     value: "docs/lab-03.pdf",
   },
+  {
+    name: "Lab 04",
+    value: "docs/lab-04.pdf",
+  }
 ];
