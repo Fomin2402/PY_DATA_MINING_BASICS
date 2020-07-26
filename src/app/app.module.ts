@@ -101,6 +101,8 @@ const MATERIAL_MODULES: any[] = [
 import { AppRoutingModule } from "./app-routing.module";
 import { ShellComponent } from "./shell/shell.component";
 import { APP_BASE_HREF,LocationStrategy,HashLocationStrategy } from '@angular/common';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [AppComponent, ShellComponent],
@@ -109,9 +111,9 @@ import { APP_BASE_HREF,LocationStrategy,HashLocationStrategy } from '@angular/co
     BrowserAnimationsModule,
     AppRoutingModule,
     ...MATERIAL_MODULES,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
   ],
   providers: [
-    
     //  OPEN DIST WITHOUT SERVER
     //  To make it possilbe for open dist/index.html locally without server
     //  uncomment below
