@@ -39,5 +39,9 @@ export const SIDEBAR_LINKS: ILink[] = [
   {
     name: "Lab 08",
     value: "docs/lab-08.pdf",
+  },
+  {
+    name: "Lab 09",
+    value: "docs/lab-09.pdf",
   }
 ];
