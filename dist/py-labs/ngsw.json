@@ -1,0 +1,112 @@
+{
+  "configVersion": 1,
+  "timestamp": 1599419394898,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/5-es2015.879f706b60c0b43a5e54.js",
+        "/5-es5.879f706b60c0b43a5e54.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main-es2015.3a6defa50793be8daa53.js",
+        "/main-es5.3a6defa50793be8daa53.js",
+        "/manifest.webmanifest",
+        "/polyfills-es2015.f2c5ab749249a66bdf26.js",
+        "/polyfills-es5.049f620af8c864cf4d88.js",
+        "/runtime-es2015.a925447fc8cd61585cd6.js",
+        "/runtime-es5.a925447fc8cd61585cd6.js",
+        "/styles.0b34b46668af230ab386.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/docs/getting-started.pdf",
+        "/assets/docs/lab-01.pdf",
+        "/assets/docs/lab-02.pdf",
+        "/assets/docs/lab-03.pdf",
+        "/assets/docs/lab-04.pdf",
+        "/assets/docs/lab-05.pdf",
+        "/assets/docs/lab-06.pdf",
+        "/assets/docs/lab-07.pdf",
+        "/assets/docs/lab-08.pdf",
+        "/assets/docs/lab-09.pdf",
+        "/assets/docs/lab-10.pdf",
+        "/assets/docs/lab-11.pdf",
+        "/assets/docs/lab-12.pdf",
+        "/assets/docs/lab-13.pdf",
+        "/assets/docs/lab-14.pdf",
+        "/assets/docs/lab-15.pdf",
+        "/assets/docs/lab-16.pdf",
+        "/assets/images/fit.png",
+        "/assets/images/logo_bstu.png",
+        "/assets/styles/color-pallete.scss",
+        "/assets/styles/flex-layout-classes.scss",
+        "/assets/styles/fonts.scss"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/5-es2015.879f706b60c0b43a5e54.js": "de4c21912d9626637a0ba6cfe2b3be8a742cf966",
+    "/5-es5.879f706b60c0b43a5e54.js": "3924d9d5c7a227cd94cb53783e188254e70f8b7e",
+    "/assets/docs/getting-started.pdf": "beb786416462ad83e3bd2f8c0f2d6c935a33ffb4",
+    "/assets/docs/lab-01.pdf": "040f813fa4c575a06a10395ddae1c00ae00f8c5d",
+    "/assets/docs/lab-02.pdf": "9fe550cf0ea099369f218d6f32758dbb82860f3a",
+    "/assets/docs/lab-03.pdf": "374b14ebd7886142a97b143596660d6094a3adeb",
+    "/assets/docs/lab-04.pdf": "94ad1419e118b263435cae1a6cbc653ae3e994a8",
+    "/assets/docs/lab-05.pdf": "be6378ce61d8d92533d4064c7e3fe940b046e5f9",
+    "/assets/docs/lab-06.pdf": "2c8524d32dcbcbea8bceeed9fac8d638323258f1",
+    "/assets/docs/lab-07.pdf": "03fc0aa776cdf9fcd01c095e44b60c56cf2cf0ec",
+    "/assets/docs/lab-08.pdf": "822315bf8861ec9858c30fefb990de408f2d04f6",
+    "/assets/docs/lab-09.pdf": "a9c2f078b9e067bcc59cab9ec730a35f94c38c56",
+    "/assets/docs/lab-10.pdf": "18dc40294d4f4cb8ea4ba32cdb86f75ba46d70a0",
+    "/assets/docs/lab-11.pdf": "37ae359a3f04e8a9bf5c032485fcb86a3f68c496",
+    "/assets/docs/lab-12.pdf": "c283cbb60ae52bd0bf6b76be9450e1f7cce28151",
+    "/assets/docs/lab-13.pdf": "70c41f6c515fd6d514a28d5ae0ba09a4f271297e",
+    "/assets/docs/lab-14.pdf": "54ce74aa9d4f4e95ec06c17fdb516005f5c3067b",
+    "/assets/docs/lab-15.pdf": "33df6811db83ab9a4b9d774b0f777cc803fd3299",
+    "/assets/docs/lab-16.pdf": "1cfc16e25ea0bb757f26a496d6d6acd4b2b1e2cf",
+    "/assets/images/fit.png": "613502c64493f2af134860a55e0e4bb85523166d",
+    "/assets/images/logo_bstu.png": "71bd7e776586ef1f4cd65595893dfaf2157e6ad9",
+    "/assets/styles/color-pallete.scss": "c87ec8e3d5498088e7be4374ceb20159ddfca219",
+    "/assets/styles/flex-layout-classes.scss": "166464d51eb63439d366654ec5f839bf4a20bf5f",
+    "/assets/styles/fonts.scss": "78dc6ba8e13db7600eebb28dd3b7a41967155b4a",
+    "/favicon.ico": "e1a92af7744d04f44fa250888afe0935f3871338",
+    "/index.html": "b062b17219269d4d5d4760d02314580e5fa12c15",
+    "/main-es2015.3a6defa50793be8daa53.js": "4ba9d2dde73e52e3cebe1cab77076814c872cc40",
+    "/main-es5.3a6defa50793be8daa53.js": "e92279f40f80bd34f0b7dd9213a12ebb82146818",
+    "/manifest.webmanifest": "b7f162a15090d9edc153126401a17b2ec4e0ee55",
+    "/polyfills-es2015.f2c5ab749249a66bdf26.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "/polyfills-es5.049f620af8c864cf4d88.js": "8aa26ea87b9958c6bd13b7c257c0e9940438e684",
+    "/runtime-es2015.a925447fc8cd61585cd6.js": "653830da522328dc301bba125e4be2524342b977",
+    "/runtime-es5.a925447fc8cd61585cd6.js": "80a98373f71c3f558fa10bdf742250facc2a3b7b",
+    "/styles.0b34b46668af230ab386.css": "baea01e23bf4a07b9ba2d36bba59a854d59311f2"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
