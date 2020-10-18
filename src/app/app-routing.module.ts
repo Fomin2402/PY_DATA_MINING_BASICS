@@ -12,6 +12,13 @@ const routes: Routes = [
       ),
   },
   {
+    path: "dependencies",
+    loadChildren: () =>
+      import("./pages/dependencies/dependencies.module").then(
+        (m: any) => m.DependenciesModule
+      ),
+  },
+  {
     path: "**",
     redirectTo: `${SIDEBAR_LINKS[0].value}`,
   },

@@ -1,0 +1,25 @@
+:host(app-dependencies) {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+
+  & > * {
+    width: 80%;
+  }
+
+  mat-expansion-panel:first-child {
+    margin-top: 50px;
+  }
+  mat-expansion-panel:last-child {
+    margin-bottom: 50px;
+  }
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
