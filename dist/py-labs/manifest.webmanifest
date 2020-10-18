@@ -1,0 +1,17 @@
+{
+  "name": "Основы Интеллектуального Анализа Данных",
+  "short_name": "ОИАД",
+  "theme_color": "#607d8b",
+  "background_color": "#fafafa",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "assets/images/fit.png",
+      "sizes": "55x60",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ]
+}
