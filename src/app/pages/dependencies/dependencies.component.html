@@ -1,0 +1,19 @@
+<mat-accordion>
+  <mat-expansion-panel *ngFor="let item of items">
+    <mat-expansion-panel-header>
+      <mat-panel-title> {{ item.title }} </mat-panel-title>
+      <mat-panel-description *ngIf="item.description">
+        {{ item.description }}
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+
+    <mat-list *ngIf="item?.dependencies?.length">
+      <mat-list-item *ngFor="let deps of item.dependencies">
+        <button mat-button (click)="downloadFromAsset(deps)" class="truncate">
+          {{ deps.split("/")[deps.split("/").length - 1] }}
+        </button>
+        <mat-divider></mat-divider>
+      </mat-list-item>
+    </mat-list>
+  </mat-expansion-panel>
+</mat-accordion>

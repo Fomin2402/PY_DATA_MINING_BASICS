@@ -1,0 +1,9 @@
+<pdf-viewer
+  *ngIf="src | async"
+  [src]="src | async"
+  [render-text]="true"
+  [autoresize]="true"
+  [fit-to-page]="true"
+  (error)="onError()"
+  style="display: block;"
+></pdf-viewer>

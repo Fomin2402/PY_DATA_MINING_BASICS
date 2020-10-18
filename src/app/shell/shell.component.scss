@@ -14,8 +14,23 @@
   z-index: 2;
 }
 
+.example-toolbar {
+  a {
+    height: 40px;
+    margin-right: 15px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
 .header-title {
   margin-left: 8px;
+
+  &.little {
+    display: none;
+  }
 }
 
 .example-sidenav-container {
@@ -28,4 +43,16 @@
   /* When the sidenav is fixed, don't constrain the height of the sidenav container. This allows the
        `<body>` to be our scrolling element for mobile layouts. */
   flex: 1 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  .header-title {
+    &.big {
+      display: none;
+    }
+
+    &.little {
+      display: block;
+    }
+  }
 }
