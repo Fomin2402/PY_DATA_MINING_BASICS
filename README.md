@@ -1,6 +1,6 @@
-# BSTU, Data Mining Basics practical exercises
+# [BSTU, Data Mining Basics practical exercises](http://burmakova.belstu.by/)
 
-# БГТУ, Основы Интеллектуального Анализа Данных
+# [БГТУ, Основы Интеллектуального Анализа Данных](http://burmakova.belstu.by/)
 
 ### Structure
 
